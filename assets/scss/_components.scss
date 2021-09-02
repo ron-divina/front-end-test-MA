@@ -63,4 +63,41 @@
         text-decoration: none;
         text-transform: uppercase;
     }
+
+    &:last-child &__cta {
+        padding-left: 120px;
+    }
+}
+
+// Order steps
+.order {
+    margin-top: 90px;
+    display: flex;
+
+    img {
+        width: 100px;
+        margin: auto;
+    }
+
+    &__step {
+        width: 33.33%;
+        padding: 0 6px;
+    }
+
+    &__title {
+        margin-top: 50px;
+        color: $white;
+        font-family: $Ubuntu;
+        font-size: 45px;
+        text-transform: capitalize;
+    }
+
+    &__desc {
+        margin-top: 35px;
+        color: $white;
+        font-family: $Lato;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.3;
+    }
 }
