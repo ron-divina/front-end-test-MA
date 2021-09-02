@@ -9,5 +9,29 @@
         font-weight: 700;
         font-size: 50px;
         text-transform: uppercase;
+
+        @media (max-width: 1080px) {
+            font-size: 40px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width: 1175px) {
+        padding: 80px 100px 100px;
+    }
+
+    @media (max-width: 1080px) {
+        padding: 50px 70px 70px;
+    }
+
+    @media (max-width: 916px) {
+        padding: 30px 50px 50px;
+    }
+
+    @media (max-width: 916px) {
+        padding: 50px 0 60px;
     }
 }

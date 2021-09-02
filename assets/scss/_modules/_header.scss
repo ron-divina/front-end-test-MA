@@ -2,6 +2,10 @@
     background: $theme-color0;
     padding: 68px 0 58px;
 
+    @media (max-width: 768px) {
+        padding: 30px 0 40px;
+    }
+
     &__top {
         max-width: 1200px;
         padding: 0 40px;
@@ -11,9 +15,23 @@
         margin: auto;
     }
 
+    &__logo {
+        @media (max-width: 768px) {
+            width: 150px;
+        }
+    }
+
     &__key-visual {
         margin-top: 130px;
         text-align: center;
+
+        @media (max-width: 768px) {
+            margin-top: 50px;
+        }
+
+        @media (max-width: 320px) {
+            padding: 0 20px;
+        }
     }
 
     &__big-text {
@@ -22,6 +40,18 @@
         font-weight: 700;
         font-size: 100px;
         text-transform: capitalize;
+
+        @media (max-width: 1018px) {
+            font-size: 80px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 50px;
+        }
+
+        @media (max-width: 320px) {
+            font-size: 40px;
+        }
     }
 
     &__text {
@@ -30,5 +60,15 @@
         font-family: $Lato;
         font-size: 30px;
         line-height: 1.2;
+
+        @media (max-width: 1018px) {
+            font-size: 25px;
+        }
+
+        @media (max-width: 768px) {
+            margin-top: 25px;
+            font-size: 16px;
+            font-weight: 300;
+        }
     }
 }
