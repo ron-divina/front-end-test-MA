@@ -1,5 +1,5 @@
-@include 'base';
-@include 'components';
-@include '_modules/header';
-@include '_modules/footer';
-@include '_pages/homepage'
+@import '_base';
+@import 'components';
+@import '_modules/_header';
+@import '_modules/_footer';
+@import '_pages/homepage'

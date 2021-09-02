@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__list-item:not(:last-child) {
+  margin-right: 48px;
+}
+.nav__list-link {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.promo__image {
+  width: 50%;
+}
+.promo__cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  padding: 60px;
+}
+.promo__heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.3;
+}
+.promo__text {
+  margin-top: 48px;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.promo__link {
+  width: 333px;
+  margin-top: 60px;
+  padding: 26px;
+  border-radius: 50px;
+  background: #7287ae;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header {
+  background: #7287ae;
+  padding: 68px 0 58px;
+}
+.header__top {
+  max-width: 1200px;
+  padding: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+.header__key-visual {
+  margin-top: 130px;
+  text-align: center;
+}
+.header__big-text {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: capitalize;
+}
+.header__text {
+  margin-top: 55px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+}
